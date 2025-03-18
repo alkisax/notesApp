@@ -78,11 +78,11 @@ const App = () => {
   }
 
   return (
-    <div className="bg-dark text-light min-vh-100">
-      <div className="container py-4">
-      <h1 className="text-center text-white bg-dark p-4 rounded border border-secondary shadow-lg">
-        Notes
-      </h1>
+    <div className="bg-dark text-light min-vh-100 d-flex align-items-center justify-content-center">
+      <div className="col-6 bg-dark text-light p-4 rounded border border-secondary shadow-lg">
+        <h1 className="text-center text-white bg-dark p-4 rounded border border-secondary shadow-lg">
+          Notes
+        </h1>
         <Notification message={errorMessage} />
         {user === null && (
           <Togglable buttonLabel="Login">
