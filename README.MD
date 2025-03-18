@@ -7,7 +7,7 @@ https://notesapp-ig29.onrender.com
 https://github.com/alkisax/notesApp
 
 **Full README.MD:** 
-
+https://github.com/alkisax/notesApp/blob/main/README.MD
 
 ## Overview
 The NotesApp is a full-stack application with a front-end built using React and a back-end powered by Node.js and Express. It allows users to securely log in, create, view, and manage notes. The application follows a clean separation of concerns between the frontend and backend, enabling scalability and ease of maintenance.
