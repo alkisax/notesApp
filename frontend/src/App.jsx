@@ -37,7 +37,7 @@ const App = () => {
       .then(updatedNotes => {
         setNotes(updatedNotes)
       })
-  }, [notes]) 
+  }, []) 
 
   useEffect(() => {
     const loggedUserJSON = window.localStorage.getItem('loggedNoteappUser')
