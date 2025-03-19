@@ -1,7 +1,7 @@
 import axios from 'axios'
 // const baseUrl = 'http://localhost:3001/api/notes' //changed to test deploy back/front connection
 // const baseUrl = 'https://testfinlanddeploynotesapp-2.onrender.com/api/notes'; // propably wrong url
-const baseUrl = 'https://twotestfinlanddeploynotesapp.onrender.com/api/notes' //changed to test deploy back/front connection
+const baseUrl = 'https://notesapp-ig29.onrender.com/api/notes' //changed to test deploy back/front connection
 // const baseUrl = '/api/notes' // this because they where uploaded as same service on render
 
 let token = null
